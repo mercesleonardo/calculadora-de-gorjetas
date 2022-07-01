@@ -82,3 +82,9 @@ form.tipsForm {
 .formSubmit:hover {
     background-color: rgb(230, 32, 32);
 }
+
+#totalTip {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
