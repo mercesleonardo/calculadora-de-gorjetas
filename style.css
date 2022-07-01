@@ -4,3 +4,81 @@
     margin: 0px;
     padding: 0px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+:root {
+    --primary-color: lightcoral;
+    --secundary-color: dimGray;
+    --tertiary-color: gainsboro;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-size: 15px;
+    font-family: Lato, sans-serif;
+}
+
+div#container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    /* Centralizou na horizontal*/
+    background-color: #f7f7f7;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+h1.title {
+    background: var(--tertiary-color);
+    color: var(--secundary-color);
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bolder;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+form.tipsForm {
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formImput {
+    margin: 10px;
+    background-color: white;
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+}
+
+.formImput:focus {
+    border: 2px solid var(--primary-color);
+    outline: none;
+}
+
+.formSelect {
+    margin: 10px;
+    width: 100px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.formSubmit {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto;
+    background: var(--primary-color);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+}
+
+.formSubmit:hover {
+    background-color: darkred;
+}
